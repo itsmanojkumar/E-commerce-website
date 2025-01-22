@@ -1,0 +1,72 @@
+
+.main{
+  background-color:blue;
+  text-align:center;
+  margin-left: 5px;
+}
+
+.main2{
+  background-color:skyblue;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.navitem:hover
+  {
+    background-color:lightgreen;
+
+    position: relative;
+    display:flex;
+  }
+.navbar
+{
+  background-color:rgb(25, 203, 63);
+  position: relative;
+  display:flex;
+  margin-left: 5px;
+}
+
+.allimg{
+  display:flex;
+  max-width: fit-content;
+  padding: 10px 50px 10px 10px;
+  margin: 10px 50px 10px 10px;
+}
+
+.imge{
+  width: 200px;
+  height: 350px;
+  margin-left: 5px;
+  border-style: solid;
+  border-width: 4px;
+}
+
+  .navb{
+    padding: 0px;
+    background-color:blue;
+    margin-right:10 20 30 40;
+    display:flex;
+
+  }
+
+.navitem{
+
+  border: 1px solid rgb(26, 25, 25);
+  padding-right:10px;
+  padding-left:10px;
+  justify-content:center;
+  color:black ;
+
+
+}
+
+.footer{
+  background-color: skyblue;
+  width: 100%;
+  height: 100%; 
+}
+
+.footermain{
+  display: flex;
+}
+
