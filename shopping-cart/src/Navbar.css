@@ -1,0 +1,52 @@
+.navb li{
+    padding-right:10px;
+    padding-left:10px;
+    justify-content:center;
+    cursor:pointer;
+    gap: 20px;
+    align-items: center;
+  
+  }
+
+  .navb{
+    display:flex;
+    padding-right:10px;
+    padding-left:100px;
+    justify-content:flex-start;
+    cursor:pointer;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(148, 243, 243);
+    width:100%;
+    margin-top:2px;
+  
+  }
+  .navb hr{
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    background: red;
+    height: 5px;
+  
+  }
+
+  .navbar hr{
+    border-radius: 10px;
+    
+  }
+
+  .navbar
+  {
+    display:flex;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Navmain{
+    display: flex;
+    background-color: aqua;
+    gap: 10px;
+    justify-content:space-evenly;
+    padding: 10px;
+  }
