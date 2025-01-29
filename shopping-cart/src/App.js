@@ -38,7 +38,7 @@ return(
   <Route path='/Login' element={<Login/>}/> 
   <Route path='/Cart' element={<Api/>}/> 
  </Routes>
-
+{/* I am manoj */}
  {/* <div className='slider'>
   <div className='slides'>
   
