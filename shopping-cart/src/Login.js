@@ -13,8 +13,6 @@ function Login() {
         <button>Signup</button>
         <a href='' >Forgot password</a>
         <p>Remember me</p>
-      
-        
       </div>
     </div>
     </>

@@ -11,70 +11,32 @@ import Navbar from './Navbar';
 import Login from './Login';
 import Footer from './Footer';
 import Ref from './Ref';
+// import Task from './Task';
 import { Link, Router } from 'react-router-dom';
 import react, { createContext,useState } from 'react';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import Googlelogin from './Googlelogin';
 
 
 export const UserContext=createContext();
 
 
 function App() {
-  const [user,setuser]=useState("manoj kumar");
-  const [slide,setslide]=useState(0)
-  const images = [
-    img,img3,img4
-  ]; 
-  let temp=slide;
-  const hoverClass=slide===temp?'indicator':'indicator_slide';
   
 return(
 <>
+
 {/*<UserContext.Provider value={user}><Ref/></UserContext.Provider>*/}
 <BrowserRouter>
- <Routes>
-  <Route path='/' element={<Navbar/>}/>
-  <Route path='/' element={<Footer/>}/>
-  <Route path='/Login' element={<Login/>}/> 
-  <Route path='/Cart' element={<Api/>}/> 
- </Routes>
+<Routes>
+  <Route path="/" element={<Navbar />}/>
+  <Route path="/Login" element={<Login />} /> 
+  <Route path="/Cart" element={<Api />} />
+</Routes>
+ {/* <Googlelogin/> */}
+ 
 {/* I am manoj */}
- {/* <div className='slider'>
-  <div className='slides'>
   
-   <img src={images[slide]} alt='image'></img>
-   
-   <span className='indicators'>
-    <button className={hoverClass}></button>
-    <button className={hoverClass}></button>
-    <button className={hoverClass}></button>
-    
-    
-   </span>
-   
-  </div>
-  <p>count:{slide}</p>
-  <BsArrowLeftCircle className='arrow-left' onClick={()=>setslide(slide+1)}/>
-  <BsArrowRightCircle className='arrow-right' onClick={()=>setslide(slide-1)}/>
-</div>
-<div className='allgap'>
-  <div className='gap'>
-   <h1>Discounts</h1>
-  </div>
-</div> */}
-
-
- {/*<div>
-  const Image=()=> { 
-  return(
-  <img src={img4}  alt='image4'/>);
-  }
- </div>*/}
-
- {/* count:{slide} */}
- 
- {/*<BsArrowLeftCircle className='arrow' onClick={()=>{return(<h1>helli</h1>)}}/>*/}
- 
  
  
 
